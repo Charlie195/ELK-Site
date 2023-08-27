@@ -23,11 +23,11 @@ a, button {
 }
 
 h2 {
-  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-size: clamp(1.5rem, 3vw, 2.3rem);
 }
 h3 {
   font-weight: normal;
-  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-size: clamp(1rem, 2vw, 1.8rem);
 }
 
 .navbar {
@@ -74,7 +74,7 @@ h3 {
   padding: 1rem;
 }
 
-.home {
+/* .home {
   display: flex;
   flex: 1;
 }
@@ -84,9 +84,6 @@ h3 {
 .home .half {
   flex: 50%;
   padding: 10px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   position: relative;
 }
 .home .half .half_package {
@@ -96,4 +93,47 @@ h3 {
 }
 .home .half .half_package > * {
   padding: 4vh;
+} */
+
+.home {
+  display: flex;
+  flex: 1;
 }
+.home .key_words {
+  color: #1060BC;
+}
+.home .half {
+  flex: 50%;
+  position: relative;
+}
+.home .left {
+  padding: 10px;
+}
+.home .half .half_package, .picture {
+  position: absolute;
+  top: 5%;
+}
+.home .left .half_package {
+  padding: 4vh;
+}
+.home .left .half_package > * {
+  padding: 4vh;
+}
+.home .right .picture {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+/* .home .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+.home .right .picture {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%
+} */

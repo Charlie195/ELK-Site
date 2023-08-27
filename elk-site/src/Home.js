@@ -1,7 +1,9 @@
+import computer_circuit_board from "./computer_circuit_board.png"
+
 const Home = () => {
     return (  
         <div className="home">
-            <div className="half">
+            <div className="left half">
                 <div className="half_package">
                     <div className="title">
                         <div>
@@ -16,12 +18,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="half">
-                <div className="half_package">
-                    <div className="picture">
-                        <h2>Photo</h2>
-                    </div>
-                </div>
+            <div className="right half">
+                <img className="picture" src={computer_circuit_board} alt="computer circuit board"/>
             </div>
         </div>
     );
