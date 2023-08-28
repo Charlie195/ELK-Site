@@ -1,14 +1,23 @@
 import Heading from "./Heading";
 import Home from "./Home";
 import Get_Connected from "./Get_Connected";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
     return (
-        <div className="App">
-            <Heading />
-            <Home />
-            <Get_Connected />
-        </div>
+        <Router>
+            <div className="App">
+                <Heading />
+                <div className="content">
+                    <Switch>
+                        <Route exact path="/">
+                            <Home />
+                        </Route>
+                    </Switch>
+                </div>
+                <Get_Connected />
+            </div>
+        </Router>
     );
 }
 
