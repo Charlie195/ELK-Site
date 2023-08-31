@@ -35,7 +35,7 @@ h3 {
   font-size: clamp(1rem, 2vw, 1.8rem);
 }
 h4 {
-  font-size: clamp(0.8rem, 1.75vw, 1.5rem);
+  font-size: clamp(0.8rem, 1.75vw, 1.4rem);
 }
 
 .navbar {
@@ -58,7 +58,7 @@ h4 {
   color: #A1C9F7;
 }
 
-.contact button {
+.blue_button button {
   padding: 9px 25px;
   color: #A1C9F7;
   background-color: rgba(6, 38, 73, 1);
@@ -68,7 +68,7 @@ h4 {
   transition: all 0.3s ease 0s;
 }
 
-.contact button:hover {
+.blue_button button:hover {
   background-color: rgba(6, 38, 73, 0.6);
 }
 
@@ -207,17 +207,25 @@ h4 {
 }
 .services .side .title {
   position: absolute;
-  top: 400px;
+  top: 410px;
 }
 .services .side .title h3 {
   font-weight: bold;
 }
 .services .side .content {
   position: absolute;
-  top: 420px;
+  top: 440px;
   padding: 4vh;
 }
 .services .side .content h4 {
   font-weight: normal;
   text-align: center;
+}
+.services .demo_video {
+  position: absolute;
+  top: 330px;
+}
+.services .demo_video h4 {
+  color: #A1C9F7;
+  font-weight: bold;
 }
