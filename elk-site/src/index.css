@@ -206,16 +206,15 @@ h4 {
   min-width: 100%;
 }
 .services .side .title {
-  /* position: absolute;
-  top: 400px; */
-  padding: 4vh;
+  position: absolute;
+  top: 400px;
 }
 .services .side .title h3 {
   font-weight: bold;
 }
 .services .side .content {
-  /* position: absolute;
-  top: 420px; */
+  position: absolute;
+  top: 420px;
   padding: 4vh;
 }
 .services .side .content h4 {
