@@ -147,7 +147,7 @@ h4 {
 
 .get_connected_button{
   position: absolute;
-  top: 850px;
+  top: 600px;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -228,4 +228,16 @@ h4 {
 .services .demo_video h4 {
   color: #A1C9F7;
   font-weight: bold;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.project {
+  flex:1;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center center;
 }

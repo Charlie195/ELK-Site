@@ -6,10 +6,10 @@ const Projects = () => {
     return ( 
         <div className="projects">
             <div className="project">
-                <div className="company_image">
+                <div className="company first_img">
                     <img src={scotiabank_icon} alt="scotiabank icon" />
                 </div>
-                <div className="company-description">
+                <div className="company first_description">
                     <h2>Confirmation Utility Hub - CUH</h2>
                     <h3>Design the automation test framework from scratch. 
                         Monitor the regression testing. Tools and Platform: 
@@ -18,9 +18,9 @@ const Projects = () => {
                 </div>
             </div>
             <div className="project">
-                <div className="company_image"></div>
+                <div className="company second_img"></div>
                     <img src={the_star_group} alt="the star group" />
-                <div className="company-description">
+                <div className="company second_description">
                     <h2>Vault</h2>
                     <li>Designed/built the automation test framework and also maintained/revisited
                          the framework to optimize and improve its reusability and reliability, 
@@ -35,9 +35,9 @@ const Projects = () => {
                 </div>
             </div>
             <div className="project">
-                <div className="company_image"></div>
+                <div className="company third_img"></div>
                     <img src={virtru} alt="virtru" />
-                <div className="company-description">
+                <div className="company third_description">
                     <h2>The Stars Group</h2>
                     <li>Designed and built a python automation test framework based on pytest for the Core Server Platform, 
                         it supported posting/receiving messages between client/server based on user-defined pycl API, 
