@@ -1,4 +1,5 @@
 import computer_circuit_board from "./computer_circuit_board.png"
+import Get_Connected from "./Get_Connected";
 
 const Home = () => {
     return (  
@@ -20,6 +21,7 @@ const Home = () => {
             </div>
             <div className="right half">
                 <img className="picture" src={computer_circuit_board} alt="computer circuit board"/>
+                <Get_Connected />
             </div>
         </div>
     );

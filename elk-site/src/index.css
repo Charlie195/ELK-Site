@@ -14,7 +14,7 @@ body {
 .App {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 104vh;
 }
 .content {
   display: flex;
@@ -106,6 +106,7 @@ h4 {
 .home {
   display: flex;
   flex: 1;
+  box-sizing: border-box;
 }
 .home .key_words {
   color: #1060BC;
@@ -113,13 +114,10 @@ h4 {
 .home .half {
   flex: 50%;
   position: relative;
-}
-.home .left {
-  padding: 10px;
+  height: 100%;
 }
 .home .half .half_package, .picture {
   position: absolute;
-  top: 5%;
 }
 .home .left .half_package {
   padding: 4vh;
@@ -147,7 +145,7 @@ h4 {
 
 .get_connected_button{
   position: absolute;
-  top: 600px;
+  top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -186,6 +184,10 @@ h4 {
 .get_connected_button:hover::before {
   opacity: 1;
   transform: scaleX(1) scaleY(1);
+}
+
+.get_connected_button h2 {
+  width: 6em;
 }
 
 .services {
@@ -233,11 +235,88 @@ h4 {
 .projects {
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 .project {
-  flex:1;
-  background-size: cover;
-  background-repeat:no-repeat;
-  background-position:center center;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  padding: 20px;
+}
+.company {
+  flex: 1;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.company img {
+  width: 50%;
+  border-radius: 50%;
+}
+.description {
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.second.logo{
+  order: 1
+}
+
+form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 5%;
+  width: 90%;
+  font-size: 16px;
+}
+
+input {
+  width: 100%;
+  height: 45px;
+  padding: 7px;
+  outline: none;
+  border-radius: 15px;
+  border: 3px solid #062649;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+
+textarea {
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%;
+  max-height: 100px;
+  min-height: 100px;
+  padding: 7px;
+  outline: none;
+  border-radius: 15px;
+  border: 3px solid #062649;
+  box-sizing: border-box;
+
+  &:focus {
+    border: 2px solid rgba(0, 206, 158, 1);
+  }
+}
+
+input[type="submit"] {
+  height: 45px;
+  color: white;
+  background-color: rgba(249, 105, 14, 1);
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: large;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: rgba(249, 105, 14, 0.6);
 }

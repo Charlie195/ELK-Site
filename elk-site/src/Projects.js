@@ -1,15 +1,15 @@
-import scotiabank_icon from "./Scotiabank_icon.webp";
-import the_star_group from "./TheStarGroup.webp";
-import virtru from "./virtru.webp";
+import scotiabank_logo from "./ScotiabankLogo.png";
+import the_stars_group_logo from "./TheStarsGroupLogo.png";
+import virtru_logo from "./VirtruLogo.png";
 
 const Projects = () => {
     return ( 
         <div className="projects">
             <div className="project">
-                <div className="company first_img">
-                    <img src={scotiabank_icon} alt="scotiabank icon" />
+                <div className="company first logo">
+                    <img src={scotiabank_logo} alt="scotiabank logo" />
                 </div>
-                <div className="company first_description">
+                <div className="company first description">
                     <h2>Confirmation Utility Hub - CUH</h2>
                     <h3>Design the automation test framework from scratch. 
                         Monitor the regression testing. Tools and Platform: 
@@ -18,9 +18,10 @@ const Projects = () => {
                 </div>
             </div>
             <div className="project">
-                <div className="company second_img"></div>
-                    <img src={the_star_group} alt="the star group" />
-                <div className="company second_description">
+                <div className="company second logo">
+                    <img src={the_stars_group_logo} alt="the stars group logo" />
+                </div>
+                <div className="company second description">
                     <h2>Vault</h2>
                     <li>Designed/built the automation test framework and also maintained/revisited
                          the framework to optimize and improve its reusability and reliability, 
@@ -35,9 +36,10 @@ const Projects = () => {
                 </div>
             </div>
             <div className="project">
-                <div className="company third_img"></div>
-                    <img src={virtru} alt="virtru" />
-                <div className="company third_description">
+                <div className="company third logo">
+                    <img src={virtru_logo} alt="virtru logo" />
+                </div>
+                <div className="company third description">
                     <h2>The Stars Group</h2>
                     <li>Designed and built a python automation test framework based on pytest for the Core Server Platform, 
                         it supported posting/receiving messages between client/server based on user-defined pycl API, 

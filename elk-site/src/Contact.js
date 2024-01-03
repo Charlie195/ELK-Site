@@ -17,11 +17,11 @@ const Contact = () => {
 
     return ( 
         <form ref={form} onSubmit={sendEmail}>
-            <label>Name</label>
+            <h2>Name</h2>
             <input type="text" name="from_name" />
-            <label>Email</label>
+            <h2>Email</h2>
             <input type="email" name="from_email" />
-            <label>Message</label>
+            <h2>Message</h2>
             <textarea name="message" />
             <input type="submit" value="Send" />
         </form>

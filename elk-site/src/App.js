@@ -3,7 +3,6 @@ import Home from "./Home";
 import Services from "./Services";
 import Projects from "./Projects";
 import Contact from "./Contact";
-import Get_Connected from "./Get_Connected";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -27,7 +26,6 @@ function App() {
                         </Route>
                     </Switch>
                 </div>
-                <Get_Connected />
             </div>
         </Router>
     );
