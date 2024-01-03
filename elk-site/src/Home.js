@@ -1,7 +1,8 @@
-import computer_circuit_board from "./computer_circuit_board.png"
 import Get_Connected from "./Get_Connected";
 
 const Home = () => {
+    const computer_circuit_board = "/computer_circuit_board.png";
+
     return (  
         <div className="home">
             <div className="left half">

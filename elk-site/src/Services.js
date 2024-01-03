@@ -1,8 +1,8 @@
-import web_app_automation_test from "./Web_App_Automation_Test.png";
-import mobile_app_automation_test from "./Mobile_App_Automation_Test.png";
-import ci_cd from "./CI_CD.png";
-
 const Services = () => {
+    const web_app_automation_test = "/Web_App_Automation_Test.png";
+    const mobile_app_automation_test = "/Mobile_App_Automation_Test.png";
+    const ci_cd = "/CI_CD.png";
+
     return (  
         <div className="services">
             <div className="left side">

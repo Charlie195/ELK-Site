@@ -1,13 +1,13 @@
-import scotiabank_logo from "./ScotiabankLogo.png";
-import the_stars_group_logo from "./TheStarsGroupLogo.png";
-import virtru_logo from "./VirtruLogo.png";
-
 const Projects = () => {
+    const firstLogo = "/ScotiabankLogo.png";
+    const secondLogo = "/TheStarsGroupLogo.png";
+    const thirdLogo = "/VirtruLogo.png";
+
     return ( 
         <div className="projects">
             <div className="project">
                 <div className="company first logo">
-                    <img src={scotiabank_logo} alt="scotiabank logo" />
+                    <img src={firstLogo} alt="scotiabank logo" />
                 </div>
                 <div className="company first description">
                     <h2>Confirmation Utility Hub - CUH</h2>
@@ -19,7 +19,7 @@ const Projects = () => {
             </div>
             <div className="project">
                 <div className="company second logo">
-                    <img src={the_stars_group_logo} alt="the stars group logo" />
+                    <img src={secondLogo} alt="the stars group logo" />
                 </div>
                 <div className="company second description">
                     <h2>Vault</h2>
@@ -37,7 +37,7 @@ const Projects = () => {
             </div>
             <div className="project">
                 <div className="company third logo">
-                    <img src={virtru_logo} alt="virtru logo" />
+                    <img src={thirdLogo} alt="virtru logo" />
                 </div>
                 <div className="company third description">
                     <h2>The Stars Group</h2>
